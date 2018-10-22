@@ -21,6 +21,8 @@ def GetToken():
     return json.loads(jsonstr)["data"][0]
 
 #One.token
+
+
 if __name__ == "__main__":
     GetToken()
     
