@@ -21,9 +21,13 @@ def GetToken():
     return json.loads(jsonstr)["data"][0]
 
 #One.token
+<<<<<<< HEAD
 
 #git branch /////
 
+=======
+#git branch
+>>>>>>> feature1
 if __name__ == "__main__":
     GetToken()
     
